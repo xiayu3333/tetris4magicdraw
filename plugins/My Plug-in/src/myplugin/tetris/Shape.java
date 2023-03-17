@@ -1,9 +1,7 @@
 package myplugin.tetris;
-
 import java.util.Random;
 
 public class Shape {
-
 
     protected enum Tetrominoe {
         NoShape, ZShape, SShape, LineShape,
@@ -60,7 +58,7 @@ public class Shape {
         return coords[index][1];
     }
 
-    Shape.Tetrominoe getShape() {
+    Tetrominoe getShape() {
 
         return pieceShape;
     }

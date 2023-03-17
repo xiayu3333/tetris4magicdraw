@@ -11,6 +11,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
+
 
 public class TetrisAction extends MDAction {
 
@@ -21,21 +23,9 @@ public class TetrisAction extends MDAction {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
 
-        ActivityNode node;
-        node<
-
-        EventQueue.invokeLater(() -> {
-
             Tetris game = new Tetris();
             game.setVisible(true);
 
-            game.addWindowListener(new WindowAdapter() {
-                @Override
-                public void windowClosing(WindowEvent e) {
-                    System.out.println("closing...");
-                    game.dispose();
-                }
-            });
-        });
+
     }
 }

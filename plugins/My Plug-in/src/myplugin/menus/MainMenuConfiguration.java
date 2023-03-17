@@ -23,14 +23,9 @@ public class MainMenuConfiguration implements AMConfigurator {
         NMAction newProjectAction = actionsManager.getActionFor(ActionsID.ABOUT);
         if (newProjectAction != null) {
             ActionsCategory category = (ActionsCategory) actionsManager.getActionParent(newProjectAction);
-            if (category != null){
-                List<NMAction> actionsInCategory = category.getActions();
-                ActionsCategory category1 = new ActionsCategory("parent_button", "Tetris");
-                category1.setNested(true);
-                category1.addAction(tetrisAction);
-                actionsInCategory.add(category1);
-                category.setActions(actionsInCategory);
-            }
+            //category.getActions()
+            category.addAction(tetrisAction);
+
         }
     }
 }
