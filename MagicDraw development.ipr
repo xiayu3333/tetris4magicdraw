@@ -10,6 +10,15 @@
         <element id="module-output" name="My Plug-in" />
       </root>
     </artifact>
+    <artifact type="jar" name="tetris4magicdraw">
+      <output-path>$PROJECT_DIR$/out/artifacts/tetris4magicdraw</output-path>
+      <root id="archive" name="tetris4magicdraw.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/plugins/My Plug-in/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="My Plug-in" />
+      </root>
+    </artifact>
   </component>
   <component name="CompilerConfiguration">
     <wildcardResourcePatterns>

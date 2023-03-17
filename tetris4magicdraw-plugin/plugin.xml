@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+        id="myplugin"
+        name="My Plug-in"
+        version="1.0"
+        provider-name="No Magic"
+        class="myplugin.Main">
+
+    <requires>
+        <api version="1.2"/>
+    </requires>
+
+    <runtime>
+        <library name="tetris4magicdraw.jar"/>
+    </runtime>
+
+</plugin>
