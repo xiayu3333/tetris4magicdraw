@@ -1,9 +1,9 @@
-# Tetris Game for MagicDraw/Cameo
-
-
+# Tetris Game for MagicDraw
 
 
 ## Introduction
-This is a plugin for Cameo/MagicDraw, developed within "MBSE_AIRBUS_ServiceBulletin" project.    
+This is a mini Tetris game as MagicDraw plugin. The game's source codes are from https://zetcode.com/javagames/tetris/
+
     
-## Main features:
+## Installation:
+Simply copy and paste folder "tetris4magicdraw-plugin" to "MagicDraw Installation Directory/plugins", then launch MagicDraw.
